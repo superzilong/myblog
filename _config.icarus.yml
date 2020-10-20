@@ -99,11 +99,11 @@ head:
 navbar:
     # Naviagtion menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        主页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -128,7 +128,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: solarized-light
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -207,7 +207,7 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -217,11 +217,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Super🤸‍子龙
         # Author title
-        author_title: Your title
+        # author_title: Your title
         # Author's current location
-        location: Your location
+        # location: Your location
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
@@ -229,40 +229,40 @@ widgets:
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/superzilong'
         # Links to be shown on the bottom of the profile widget
-        social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+        # social_links:
+        #     Github:
+        #         icon: fab fa-github
+        #         url: 'https://github.com/ppoffice'
+        #     Facebook:
+        #         icon: fab fa-facebook
+        #         url: 'https://facebook.com'
+        #     Twitter:
+        #         icon: fab fa-twitter
+        #         url: 'https://twitter.com'
+        #     Dribbble:
+        #         icon: fab fa-dribbble
+        #         url: 'https://dribbble.com'
+        #     RSS:
+        #         icon: fas fa-rss
+        #         url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
-    # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+    # # Recommendation links widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: links
+    #     # Names and URLs of the sites
+    #     links:
+    #         Hexo: 'https://hexo.io'
+    #         Bulma: 'https://bulma.io'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -271,36 +271,36 @@ widgets:
     # Recent posts widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: recent_posts
-    # Archives widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: archives
+    # # Archives widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: archives
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
-    # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+    # # Google FeedBurner email subscription widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 
+    #     # Feedburner ID
+    #     feedburner_id: ''
+    # # Google AdSense unit configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: adsense
+    #     # AdSense client ID
+    #     client_id: ''
+    #     # AdSense AD unit ID
+    #     slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
